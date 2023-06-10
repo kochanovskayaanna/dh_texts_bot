@@ -314,7 +314,8 @@ async def start_extract(update: Update, context: ContextTypes.DEFAULT_TYPE) -> i
 
 
 def main() -> None:
-    application = Application.builder().token('6289304489:AAHK3jS6BlQg5r38W_PmTt8yAziRAoGi1L4').build()
+    token = '6289304489:AAHK3jS6BlQg5r38W_PmTt8yAziRAoGi1L4'
+    application = Application.builder().token(token).build()
     add_data_conv = ConversationHandler(
         entry_points=[
             CallbackQueryHandler(scenario_add, pattern="^" + str(SCENARIO_ADD) + "$"),
