@@ -1,0 +1,17 @@
+.idea/
+__pycache__/
+examples/conversationbot.py
+examples/features.py
+examples/inlinekeybord2.py
+examples/my_func.py
+examples/nestedconversationbot.py
+examples/run.py
+examples/run1.py
+archive
+examples
+.DS_Store
+*.zip
+bot
+.ipynb_checkpoints
+Untitled.ipynb
+paging.py

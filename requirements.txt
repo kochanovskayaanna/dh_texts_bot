@@ -1,0 +1,5 @@
+pymorphy2==0.9.1
+nltk==3.8.1
+telegram==20.2
+difflib
+sqlite3
