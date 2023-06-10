@@ -314,7 +314,7 @@ async def start_extract(update: Update, context: ContextTypes.DEFAULT_TYPE) -> i
 
 
 def main() -> None:
-    token = '6289304489:AAHK3jS6BlQg5r38W_PmTt8yAziRAoGi1L4'
+    token = ''
     application = Application.builder().token(token).build()
     add_data_conv = ConversationHandler(
         entry_points=[
